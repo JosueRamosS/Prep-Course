@@ -1,17 +1,44 @@
 h1{
-    color: blue;
+    color: rgb(21, 22, 21);
 }
+
 img{
     width: 400px;
 }
+
 #thirdDiv{
     background-color: brown;
     height: 600px;  
     width: 500px;
     padding: 50px;
     border: outset 15px greenyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 #spaniD{
     font-size: 18px;
     margin: 50px;
 }
+
+body{
+    background-image: url(https://images7.alphacoders.com/110/1102604.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divClass { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
